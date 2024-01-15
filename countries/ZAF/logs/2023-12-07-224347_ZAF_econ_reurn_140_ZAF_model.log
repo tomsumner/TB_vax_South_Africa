@@ -1,0 +1,686 @@
+DEBUG [2023-12-07 22:44:00] successful result of read.model()
+DEBUG [2023-12-07 22:44:16] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 22:48:12]  ntimesteps = 6931 in 00:03:56 elapsed (00:03:48 cpu)
+DEBUG [2023-12-07 22:48:15] successful result of run.deSolve()
+WARN  [2023-12-07 22:48:16]  at t = 1981.5 117 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000371697
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000222453
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000324673
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000194269
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000277842
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000165411
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000238545
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 19; value = -0.000141141
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.00021529
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.00013118
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000217293
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 21; value = -0.000139628
+ERROR [2023-12-07 22:48:16]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 22; value = -0.000126663
+WARN  [2023-12-07 22:48:16]  at t = 1984.5 7 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 22:48:16]  at t = 1984.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000174995
+ERROR [2023-12-07 22:48:16]  at t = 1984.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000942005
+ERROR [2023-12-07 22:48:16]  at t = 1984.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.000117202
+WARN  [2023-12-07 22:48:16]  at t = 2009.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 22:48:16]  at t = 2011.5 state variables < min.value.for.state.var : state = never-low-risk1-ARTn2-Ds ; age group = 15; value = -0.000227113
+ERROR [2023-12-07 22:48:16]  at t = 2011.5 state variables < min.value.for.state.var : state = never-high-risk1-ARTn2-Ds ; age group = 15; value = -0.00032837
+DEBUG [2023-12-07 22:48:25] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 22:48:25] at t=1987.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1988 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1988.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1989 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1989.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1990 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1990.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1991 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1991.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1992 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1992.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1993 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1993.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1994 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1994.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1995 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1995.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1996 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1996.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1997 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1997.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1998 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1998.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1999 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=1999.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2000 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2000.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2001 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2001.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2002 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2002.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2003 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2003.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2004 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2004.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2005 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2005.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2006 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2006.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2007 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2007.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2008 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2008.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2009 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2009.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2010 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2010.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2011 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2011.5 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2012 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2012.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2013 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2013.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2014 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2014.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2015 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2015.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2016 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2016.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2017 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2017.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2018 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2018.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2019 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2019.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2020 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2020.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2021 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2021.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2022 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2022.5 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2023 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2023.5 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2024 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2024.5 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2025 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2025.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2026 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2026.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2027 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2027.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2028 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2028.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2029 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2029.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] at t=2030 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 22:48:25] successful call of demography.from.model.run()
+DEBUG [2023-12-07 22:48:42] successful result of read.model()
+DEBUG [2023-12-07 22:48:56] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 22:55:55]  ntimesteps = 7351 in 00:06:58 elapsed (00:06:55 cpu)
+DEBUG [2023-12-07 22:55:57] successful result of run.deSolve()
+WARN  [2023-12-07 22:55:58]  at t = 1981.5 117 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000371697
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000222453
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000324673
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000194269
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000277842
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000165411
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000238545
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 19; value = -0.000141141
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.00021529
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.00013118
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000217293
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 21; value = -0.000139628
+ERROR [2023-12-07 22:55:58]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 22; value = -0.000126663
+WARN  [2023-12-07 22:55:58]  at t = 1984.5 7 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 22:55:58]  at t = 1984.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000174995
+ERROR [2023-12-07 22:55:58]  at t = 1984.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000942005
+ERROR [2023-12-07 22:55:58]  at t = 1984.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.000117202
+WARN  [2023-12-07 22:55:59]  at t = 2009.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 22:55:59]  at t = 2011.5 state variables < min.value.for.state.var : state = never-low-risk1-ARTn2-Ds ; age group = 15; value = -0.000227113
+ERROR [2023-12-07 22:55:59]  at t = 2011.5 state variables < min.value.for.state.var : state = never-high-risk1-ARTn2-Ds ; age group = 15; value = -0.00032837
+DEBUG [2023-12-07 22:56:07] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 22:56:07] successful call of demography.from.model.run()
+DEBUG [2023-12-07 22:58:07] successful result of read.model()
+DEBUG [2023-12-07 22:58:15] successful result of init.var.parameters.and.matrices()
+WARN  [2023-12-07 23:03:01]  ntimesteps = 7703 in 00:04:46 elapsed (00:04:41 cpu) which may be excessive ; please reconsider parameter values
+DEBUG [2023-12-07 23:03:03] successful result of run.deSolve()
+WARN  [2023-12-07 23:03:04]  at t = 1982 17 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:03:11] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:03:11] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:04:10] successful result of read.model()
+DEBUG [2023-12-07 23:04:22] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 23:08:02]  ntimesteps = 6913 in 00:03:40 elapsed (00:03:39 cpu)
+DEBUG [2023-12-07 23:08:05] successful result of run.deSolve()
+WARN  [2023-12-07 23:08:06]  at t = 1981.5 116 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.00034301
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000199691
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000300313
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000174522
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000257149
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000148306
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000220673
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 19; value = -0.000126109
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000198371
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.000116836
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.00020332
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 21; value = -0.00012752
+ERROR [2023-12-07 23:08:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 22; value = -0.000117807
+WARN  [2023-12-07 23:08:06]  at t = 1983 6 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+WARN  [2023-12-07 23:08:06]  at t = 1985.5 1 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+WARN  [2023-12-07 23:08:06]  at t = 2011.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:08:13] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:08:13] at t=1987.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1988 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1988.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1989 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1989.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1990 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1990.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1991 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1991.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1992 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1992.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1993 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1993.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1994 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1994.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1995 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1995.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1996 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1996.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1997 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1997.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1998 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1998.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1999 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=1999.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2000 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2000.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2001 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2001.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2002 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2002.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2003 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2003.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2004 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2004.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2005 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2005.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2006 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2006.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2007 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2007.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2008 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2008.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2009 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2009.5 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2010 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2010.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2011 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2011.5 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2012 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2012.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2013 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2013.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2014 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2014.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2015 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2015.5 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2016 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2016.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2017 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2017.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2018 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2018.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2019 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2019.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2020 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2020.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2021 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2021.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2022 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2022.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2023 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2023.5 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2024 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2024.5 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2025 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2025.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2026 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2026.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2027 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2027.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2028 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2028.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2029 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2029.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] at t=2030 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:08:13] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:08:27] successful result of read.model()
+DEBUG [2023-12-07 23:08:40] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 23:15:36]  ntimesteps = 7292 in 00:06:55 elapsed (00:06:54 cpu)
+DEBUG [2023-12-07 23:15:38] successful result of run.deSolve()
+WARN  [2023-12-07 23:15:39]  at t = 1981.5 116 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.00034301
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000199691
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000300313
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000174522
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000257149
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000148306
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000220673
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 19; value = -0.000126109
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000198371
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.000116836
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.00020332
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 21; value = -0.00012752
+ERROR [2023-12-07 23:15:39]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 22; value = -0.000117807
+WARN  [2023-12-07 23:15:39]  at t = 1983 6 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+WARN  [2023-12-07 23:15:39]  at t = 1985.5 1 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+WARN  [2023-12-07 23:15:40]  at t = 2011.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:15:46] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:15:47] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:17:39] successful result of read.model()
+DEBUG [2023-12-07 23:17:46] successful result of init.var.parameters.and.matrices()
+WARN  [2023-12-07 23:22:26]  ntimesteps = 7690 in 00:04:39 elapsed (00:04:38 cpu) which may be excessive ; please reconsider parameter values
+DEBUG [2023-12-07 23:22:28] successful result of run.deSolve()
+DEBUG [2023-12-07 23:22:35] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:22:35] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:23:33] successful result of read.model()
+DEBUG [2023-12-07 23:23:45] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 23:27:25]  ntimesteps = 6929 in 00:03:40 elapsed (00:03:39 cpu)
+DEBUG [2023-12-07 23:27:28] successful result of run.deSolve()
+WARN  [2023-12-07 23:27:29]  at t = 1981.5 116 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000235095
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000125463
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000203848
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000107217
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000172351
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000145909
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000131498
+ERROR [2023-12-07 23:27:29]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000138998
+WARN  [2023-12-07 23:27:29]  at t = 2011.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:27:36] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:27:36] at t=1987.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1988 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1988.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1989 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1989.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1990 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1990.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1991 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1991.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1992 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1992.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1993 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1993.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1994 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1994.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1995 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1995.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1996 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1996.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1997 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1997.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1998 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1998.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1999 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=1999.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2000 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2000.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2001 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2001.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2002 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2002.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2003 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2003.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2004 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2004.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2005 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2005.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2006 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2006.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2007 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2007.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2008 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2008.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2009 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2009.5 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2010 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2010.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2011 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2011.5 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2012 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2012.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2013 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2013.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2014 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2014.5 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2015 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2015.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2016 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2016.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2017 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2017.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2018 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2018.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2019 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2019.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2020 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2020.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2021 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2021.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2022 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2022.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2023 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2023.5 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2024 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2024.5 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2025 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2025.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2026 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2026.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2027 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2027.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2028 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2028.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2029 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2029.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2030 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] at t=2031 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:27:36] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:27:50] successful result of read.model()
+DEBUG [2023-12-07 23:28:03] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 23:35:02]  ntimesteps = 7351 in 00:06:59 elapsed (00:06:58 cpu)
+DEBUG [2023-12-07 23:35:05] successful result of run.deSolve()
+WARN  [2023-12-07 23:35:06]  at t = 1981.5 116 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000235095
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000125463
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000203848
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000107217
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000172351
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000145909
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000131498
+ERROR [2023-12-07 23:35:06]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000138998
+WARN  [2023-12-07 23:35:06]  at t = 2011.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:35:13] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:35:13] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:37:10] successful result of read.model()
+DEBUG [2023-12-07 23:37:18] successful result of init.var.parameters.and.matrices()
+WARN  [2023-12-07 23:41:59]  ntimesteps = 7668 in 00:04:40 elapsed (00:04:39 cpu) which may be excessive ; please reconsider parameter values
+DEBUG [2023-12-07 23:42:01] successful result of run.deSolve()
+WARN  [2023-12-07 23:42:01]  at t = 1982 4 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:42:07] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:42:07] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:43:15] successful result of read.model()
+DEBUG [2023-12-07 23:43:26] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 23:47:06]  ntimesteps = 6918 in 00:03:39 elapsed (00:03:39 cpu)
+DEBUG [2023-12-07 23:47:09] successful result of run.deSolve()
+WARN  [2023-12-07 23:47:09]  at t = 1981.5 119 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000257644
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000141901
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000225228
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000122929
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000191891
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000102848
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000163587
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000147954
+ERROR [2023-12-07 23:47:09]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000154335
+WARN  [2023-12-07 23:47:10]  at t = 2011.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:47:16] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:47:16] at t=1987.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:16] at t=1988 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:16] at t=1988.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:16] at t=1989 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:16] at t=1989.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:16] at t=1990 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:16] at t=1990.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1991 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1991.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1992 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1992.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1993 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1993.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1994 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1994.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1995 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1995.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1996 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1996.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1997 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1997.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1998 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1998.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1999 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=1999.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2000 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2000.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2001 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2001.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2002 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2002.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2003 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2003.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2004 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2004.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2005 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2005.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2006 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2006.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2007 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2007.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2008 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2008.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2009 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2009.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2010 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2010.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2011 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2011.5 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2012 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2012.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2013 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2013.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2014 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2014.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2015 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2015.5 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2016 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2016.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2017 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2017.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2018 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2018.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2019 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2019.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2020 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2020.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2021 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2021.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2022 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2022.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2023 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2023.5 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2024 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2024.5 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2025 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2025.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2026 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2026.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2027 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2027.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2028 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2028.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2029 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2029.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2030 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] at t=2031 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-07 23:47:17] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:47:31] successful result of read.model()
+DEBUG [2023-12-07 23:47:44] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-07 23:54:44]  ntimesteps = 7326 in 00:07:00 elapsed (00:06:59 cpu)
+DEBUG [2023-12-07 23:54:47] successful result of run.deSolve()
+WARN  [2023-12-07 23:54:48]  at t = 1981.5 119 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000257644
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000141901
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000225228
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000122929
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000191891
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000102848
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000163587
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000147954
+ERROR [2023-12-07 23:54:48]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000154335
+WARN  [2023-12-07 23:54:48]  at t = 2011.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-07 23:54:55] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-07 23:54:55] successful call of demography.from.model.run()
+DEBUG [2023-12-07 23:56:53] successful result of read.model()
+DEBUG [2023-12-07 23:57:00] successful result of init.var.parameters.and.matrices()
+WARN  [2023-12-08 00:01:39]  ntimesteps = 7648 in 00:04:38 elapsed (00:04:36 cpu) which may be excessive ; please reconsider parameter values
+DEBUG [2023-12-08 00:01:41] successful result of run.deSolve()
+DEBUG [2023-12-08 00:01:47] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-08 00:01:47] successful call of demography.from.model.run()
+DEBUG [2023-12-08 00:02:49] successful result of read.model()
+DEBUG [2023-12-08 00:03:00] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-08 00:06:40]  ntimesteps = 6939 in 00:03:39 elapsed (00:03:38 cpu)
+DEBUG [2023-12-08 00:06:42] successful result of run.deSolve()
+WARN  [2023-12-08 00:06:43]  at t = 1981.5 117 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000372942
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000221318
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000326218
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000193642
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000279554
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000165166
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000240291
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 19; value = -0.000141125
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000215405
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.000129978
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000219871
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 21; value = -0.000140444
+ERROR [2023-12-08 00:06:43]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 22; value = -0.000128548
+WARN  [2023-12-08 00:06:43]  at t = 1985.5 1 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+WARN  [2023-12-08 00:06:43]  at t = 2009.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-08 00:06:43]  at t = 2011.5 state variables < min.value.for.state.var : state = never-low-risk1-ARTn2-Ds ; age group = 15; value = -0.00015511
+ERROR [2023-12-08 00:06:43]  at t = 2011.5 state variables < min.value.for.state.var : state = never-high-risk1-ARTn2-Ds ; age group = 15; value = -0.000224221
+DEBUG [2023-12-08 00:06:50] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-08 00:06:50] at t=1987.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1988 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1988.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1989 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1989.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1990 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1990.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1991 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1991.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1992 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1992.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1993 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1993.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1994 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1994.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1995 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1995.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1996 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1996.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1997 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1997.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1998 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1998.5 15 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1999 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=1999.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2000 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2000.5 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2001 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2001.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2002 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2002.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2003 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2003.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2004 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2004.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2005 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2005.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2006 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2006.5 10 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2007 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2007.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2008 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2008.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2009 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2009.5 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2010 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2010.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2011 17 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2011.5 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2012 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2012.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2013 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2013.5 20 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2014 19 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2014.5 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2015 18 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2015.5 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2016 16 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2016.5 13 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2017 14 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2017.5 11 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2018 12 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2018.5 9 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2019 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2019.5 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2020 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2020.5 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2021 8 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2021.5 6 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2022 7 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2022.5 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2023 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2023.5 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2024 5 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2024.5 4 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2025 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2025.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2026 3 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2026.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2027 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2027.5 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2028 2 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2028.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2029 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2029.5 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] at t=2030 1 age groups with HIV TB deaths exceeding all cause mortality (WHO deathrates) ; capping background deaths to ensure background deaths >= 0
+DEBUG [2023-12-08 00:06:50] successful call of demography.from.model.run()
+DEBUG [2023-12-08 00:07:04] successful result of read.model()
+DEBUG [2023-12-08 00:07:16] successful result of init.var.parameters.and.matrices()
+INFO  [2023-12-08 00:14:09]  ntimesteps = 7325 in 00:06:53 elapsed (00:06:51 cpu)
+DEBUG [2023-12-08 00:14:12] successful result of run.deSolve()
+WARN  [2023-12-08 00:14:13]  at t = 1981.5 117 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000372942
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 16; value = -0.000221318
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.000326218
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 17; value = -0.000193642
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000279554
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 18; value = -0.000165166
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.000240291
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 19; value = -0.000141125
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000215405
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 20; value = -0.000129978
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000219871
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-high-risk1-HIVu2-Ds ; age group = 21; value = -0.000140444
+ERROR [2023-12-08 00:14:13]  at t = 1981.5 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 22; value = -0.000128548
+WARN  [2023-12-08 00:14:13]  at t = 1985.5 1 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+WARN  [2023-12-08 00:14:13]  at t = 2009.5 2 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-08 00:14:13]  at t = 2011.5 state variables < min.value.for.state.var : state = never-low-risk1-ARTn2-Ds ; age group = 15; value = -0.00015511
+ERROR [2023-12-08 00:14:13]  at t = 2011.5 state variables < min.value.for.state.var : state = never-high-risk1-ARTn2-Ds ; age group = 15; value = -0.000224221
+DEBUG [2023-12-08 00:14:20] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-08 00:14:20] successful call of demography.from.model.run()
+DEBUG [2023-12-08 00:16:12] successful result of read.model()
+DEBUG [2023-12-08 00:16:19] successful result of init.var.parameters.and.matrices()
+WARN  [2023-12-08 00:20:58]  ntimesteps = 7673 in 00:04:38 elapsed (00:04:37 cpu) which may be excessive ; please reconsider parameter values
+DEBUG [2023-12-08 00:21:00] successful result of run.deSolve()
+WARN  [2023-12-08 00:21:00]  at t = 1982 50 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+ERROR [2023-12-08 00:21:00]  at t = 1982 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 16; value = -0.000204251
+ERROR [2023-12-08 00:21:00]  at t = 1982 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 17; value = -0.00017291
+ERROR [2023-12-08 00:21:00]  at t = 1982 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 18; value = -0.000140811
+ERROR [2023-12-08 00:21:00]  at t = 1982 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 19; value = -0.00011399
+ERROR [2023-12-08 00:21:00]  at t = 1982 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 20; value = -0.000149669
+ERROR [2023-12-08 00:21:00]  at t = 1982 state variables < min.value.for.state.var : state = never-low-risk1-HIVu2-Ds ; age group = 21; value = -0.000118915
+WARN  [2023-12-08 00:21:00]  at t = 1984.5 1 state variables < 0 and >  -1e-04  reset to 0 after simulation run and before processing output
+DEBUG [2023-12-08 00:21:06] successful generation of stocks output from generate.prevalence.output()
+DEBUG [2023-12-08 00:21:06] successful call of demography.from.model.run()

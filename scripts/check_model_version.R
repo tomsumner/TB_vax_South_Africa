@@ -1,0 +1,6 @@
+rm(list=ls())
+here::here()
+paths = list()
+paths$src = here::here("R")
+source(here::here(paths$src,"include-v11.R"))
+modelversion()
