@@ -2,8 +2,8 @@
 <TB.Vx.model.inputfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../TB-Vx-schema-T.xsd">
   <simulation from.year="1900" thru.year="2052">
     <options>
-      <numerical.integration method="ode23" atol="0" rtol="1e-5" min.value.for.state.var="-1e-4"/>
-      <numerical.integration method="ode45" from.year="2023" atol="0" rtol="5e-8" min.value.for.state.var="-1e-7"/>
+      <numerical.integration method="ode45" atol="1e-5" rtol="1e-5" min.value.for.state.var="-1e-4"/>
+      <numerical.integration method="ode45" from.year="2023" atol="1e-5" rtol="1e-5" min.value.for.state.var="-1e-4"/>
     </options>
     <demography country.code="ignored" rescale.population="1950">      
       <from.data>
@@ -16,8 +16,8 @@
   </simulation>
   <output>
     <detailed.output years="seq(2024,2051,1)" age.group.lower.limits="0,15" econ.output="true" suppress.zeros.in.stocks="false" suppress.zeros.in.flows="false" combine.stocks.and.flows="false">
-      <flows dim="TB" incidence="true" transmission="true" progression="true" treatment="true"/>
-      <flows dim="HIV" incidence="true" transmission="false" progression="true" treatment="true"/>
+      <flows dim="TB" incidence="false" transmission="false" progression="false" treatment="false"/>
+      <flows dim="HIV" incidence="false" transmission="false" progression="false" treatment="false"/>
       <flows dim="VXa" incidence="false" transmission="false" progression="false" treatment="false"/>
     </detailed.output>
   </output>
